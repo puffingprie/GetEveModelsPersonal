@@ -31,7 +31,7 @@ def read_file():
         resFile = file.read().split('\n')
         for i in range(len(resFile)):
             if "model/ship" in resFile[i]:
-                if "caldari" in resFile[i]:
+                if "amarr" in resFile[i]:
                     if "effect" not in resFile[i] and "strategiccruiser" not in resFile[i] and "wreck" not in resFile[i]:
                         # If textures get high quality
                         if ("gr2" in resFile[i] or "ar.dds" in resFile[i] or "no.dds" in resFile[i] or "pmdg.dds" in resFile[i]):
